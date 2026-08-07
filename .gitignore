@@ -1,0 +1,31 @@
+# --- Entornos Virtuales ---
+venv/
+env/
+.env
+
+# --- Archivos de Jupyter ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+# Ignorar bases de datos locales si las hubiera
+*.db
+*.sqlite
+
+# --- Datos (Seguridad y Tamaño) ---
+# Ignoramos los CSV para que solo subas el análisis
+*.csv
+
+# --- Archivos de sistema y caché ---
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+
+# --- Editores y Herramientas ---
+.vscode/
+.idea/
+marimo/_static/
+marimo/_lsp/
+__marimo__
+
+# images
+*.png
